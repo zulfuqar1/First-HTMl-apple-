@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header style="background-color:gray;">
-        <h1><main style="font-family:Arial">APPLE</h1>
+    <header style="background-color:gray; padding: 3px;" >
+        <h1 ><main style="padding-left: 30px; font-weight: 900; font-family:Arial;">APPLE</h1>
     </header>
       
 
@@ -33,9 +34,54 @@
         <br>
         <main style="font-family:Arial">
             Apple Inc. is an American multinational technology company headquartered in Cupertino, California. Apple is the world's largest technology company by revenue, with US$394.3 billion in 2022 revenue.As of March 2023, Apple is the world's biggest company by market capitalization. As of June 2022, Apple is the fourth-largest personal computer vendor by unit sales and second-largest mobile phone manufacturer. It is one of the Big Five American information technology companies, alongside Alphabet Inc. (parent company of Google), Amazon, Meta Platforms (formerly for Facebook Inc), and Microsoft.
-        </p>
+        </p><br><br>
+        <fieldset style="width: 50%;"> 
+            <legend>Person</legend>
+            <form>
+                <label for="firstname">First name:</label><br>
+                <input type="text" id="firstname" name="firstname" value="Enter name"><br><br>
+                <label for="lastname">Last name:</label><br>
+                <input type="text" id="lastname" name="lastname" value="Enter surname"><br><br>
+                <label for="Number">Number:</label><br>
+                <input type="text" id="Number" name="Number" value="Enter phone number "><br><br>
+               
+                <textarea name="message" rows="10" cols="30">About yourself..</textarea>
+                <input type="submit" value="Submit"><br>
+              </form><br>
+
+        </fieldset><br>
+        <table style="width:50%">
+            <style>table, th, td {
+                border:1px solid black;
+              }</style>
+            
+            <tr>
+                <th>Model</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td> iphone X</td>
+                <td>2018</td>
+      
+            </tr>
+            <tr>
+                <td>iphone 11</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>iphone 12</td>
+                <td>2020</td>
+            </tr>
+          </table>
+
+
+
+
         <footer style="background-color: grey;">
             <img src="apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png" alt=""width="80" height="80">
         </footer>
+        
+
+
 </body>
 </html>
